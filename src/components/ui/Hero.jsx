@@ -75,7 +75,7 @@ const Hero = () => {
         >
           <div className="mx-4 w-[357px] md:w-[500px]  h-[402px] md:h-[550px]">
             <img
-              src="./public/assets/images/hero_img.png"
+              src="./assets/images/hero_img.png"
               alt=""
               className="w-full h-full object-fill"
             />
