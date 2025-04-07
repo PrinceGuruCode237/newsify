@@ -24,7 +24,7 @@ const Nav = () => {
           <li className=" text-base  p-1">
             <a
               href="#home"
-              className="hover:underline transition-all duration-300 text-2xl text-red-500"
+              className="hover:underline transition-all duration-300"
             >
               Accueil
             </a>
@@ -51,14 +51,6 @@ const Nav = () => {
               className="hover:underline transition-all duration-300"
             >
               Démo
-            </a>
-          </li>
-          <li className=" text-base  p-1">
-            <a
-              href="#home"
-              className="hover:underline transition-all duration-300"
-            >
-              Add
             </a>
           </li>
         </ul>
