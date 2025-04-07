@@ -99,8 +99,8 @@ const Nav = () => {
       </div>
 
       <div
-        className={`"mobile-nav  duration-300 md:hidden absolute bg-white overflow-hidden  w-full py-6 left-0 top-20 h-screen ${
-          isOpen ? "max-h-screen" : "max-h-0 py-0"
+        className={`"mobile-nav  duration-300 md:hidden absolute bg-white overflow-hidden  w-full  left-0 top-20 h-screen ${
+          isOpen ? "max-h-screen py-6" : "max-h-0 py-0"
         }`}
         style={{
           transitionTimingFunction: "ease-in-out",
